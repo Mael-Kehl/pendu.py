@@ -9,7 +9,7 @@ import os #permet d'excecuter des commandes shell
 pendu = tkinter.Tk()
 pendu.title("JEU DU PENDU - Maël") #Ajout d'un titre à l'interface
 pendu.minsize(800,600) #définition de la taille minimum de l'interface
-pendu.geometry("800x600+200+50")#definition de la taille de l'interface
+pendu.geometry("800x600+700+100")#definition de la taille de l'interface
 Status = tkinter.Canvas(pendu, height=400, width=400, highlightthickness=0)#définition d'une fenêtre à l'intérieur de l'interface graphique dans laquelle on pourra dessiner / highlightthickness sert à enlever la bordure de 2px peu esthétique autour du canvas
 #Je le nomme Status car sa principale fonction est d'indiquer le Status de la partie
 #Définition dans un tableau bidimentionnel les coordonnées de toutes les formes que l'on va tracer, il suffira d'appeler coords[i] avec i la forme que l'on désire
